@@ -1,6 +1,6 @@
 # SiBenJS `0-9`
 
-SiBenJS is an esoteric and educational programming style based on the atomic parts of JavaScript. It uses only six different characters to write and execute code.
+SiBenJS is an esoteric and educational programming style based on the atomic parts of JavaScript.
 
 By [@siben.vn](https://facebook.com/siben.vn).
 

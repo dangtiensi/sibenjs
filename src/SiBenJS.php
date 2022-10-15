@@ -1,4 +1,7 @@
 <?php
+/*
+ * Written by siben.vn
+ */
 class SiBenJs {
     private $js = '';
 

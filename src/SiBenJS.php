@@ -47,6 +47,7 @@ class SiBenJs {
     }
 
     public function render($js) {
-        return is_string($js) ? '<script type="text/javascript">(()=>{const e=a=>eval(a),o=a=>atob(a),c=a=>String.fromCharCode(a),x=a=>{var s="";for(var i in a[1]){s+=c(a[0][a[2][a[1][i]]]);}e(o(s));};x(' . $this->handle($js) . ');})();</script>' : '';
+        // (()=>{const e=a=>eval(a),o=a=>atob(a),c=a=>String.fromCharCode(a),x=a=>{var s="";for(var i in a[1]){s+=c(a[0][a[2][a[1][i]]]);}e(o(s));};x(' . $this->handle($js) . ');
+        return is_string($js) ? 'var _0x6ba5=["\x66\x72\x6F\x6D\x43\x68\x61\x72\x43\x6F\x64\x65",""];(()=>{const _0x8df7x1=(_0x8df7x5)=>{return eval(_0x8df7x5)},_0x8df7x2=(_0x8df7x5)=>{return atob(_0x8df7x5)},_0x8df7x3=(_0x8df7x5)=>{return String[_0x6ba5[0]](_0x8df7x5)},_0x8df7x4=(_0x8df7x5)=>{var _0x8df7x6=_0x6ba5[1];for(var _0x8df7x7 in _0x8df7x5[1]){_0x8df7x6+= _0x8df7x3(_0x8df7x5[0][_0x8df7x5[2][_0x8df7x5[1][_0x8df7x7]]])};_0x8df7x1(_0x8df7x2(_0x8df7x6))};_0x8df7x4(' . $this->handle($js) . ');})();' : '';
     }
 };

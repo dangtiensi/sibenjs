@@ -4,4 +4,4 @@
  */
 require_once __DIR__ . '/src/SiBenJS.php';
 
-echo (new SiBenJs())->render('alert("Hello World!")');
+echo '<script type="text/javascript">' . (new SiBenJs())->render('alert("Hello World!")') . '</script>';
